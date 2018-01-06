@@ -26,6 +26,262 @@
 				</ul>
 			</div>
 		</div>
+		<div class="row form-body">
+			<div class="col-md-5">
+				<h3>Child's Details</h3>
+				<form action="">
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="f-name">First Name</label>
+    						<input type="text" class="form-control" id="f-name" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="m-name">Middle Name</label>
+    						<input type="text" class="form-control" id="m-name" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="l-name">Last Name</label>
+    						<input type="text" class="form-control" id="l-name" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="suffix">Suffix</label>
+    						<input type="text" class="form-control" id="suffix" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="birth-time">Time oF Birth(24hr)</label>
+    						<input type="time" class="form-control" id="birth-time" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<label for="gender">Sex</label>
+							<select class="form-control" id="gender" name="gender" required>
+							  <option>Male</option>
+							  <option>Female</option>
+							  <option>Other</option>
+							</select>
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="birth-date">Date oF Birth(mm/dd/yy)</label>
+    						<input type="date" class="form-control" id="birth-date" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="birth-time">Time oF Birth(24hr)</label>
+    						<input type="time" class="form-control" id="birth-time" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="facility">Facility Name(If not Institution give street and number</label>
+    						<input type="text" class="form-control" id="facility" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="country">Country</label>
+    						<input type="text" class="form-control" id="country" placeholder="">
+						</div>
+					</div>
+					<h3>Father's Details</h3>
+					<p>FATHER'S CURRENT LEGAL NAME</p>
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="father-f-name">First Name</label>
+    						<input type="text" class="form-control" id="father-f-name" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="father-m-name">Middle Name</label>
+    						<input type="text" class="form-control" id="father-m-name" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="father-l-name">Last Name</label>
+    						<input type="text" class="form-control" id="father-l-name" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="father-suffix">Suffix</label>
+    						<input type="text" class="form-control" id="father-suffix" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="father-birthdate">Date Of Birth</label>
+    						<input type="date" class="form-control" id="father-birthdate" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="father-birthplace">Birthplace(State, Terotiry, or Forign Country)</label>
+    						<input type="text" class="form-control" id="father-birthplace" placeholder="">
+						</div>
+					</div>
+					<h3>Certifier Details</h3>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="certifier-name">Certifier Name</label>
+    						<input type="text" class="form-control" id="certifier-name" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p>Title</p>
+							<label class="checkbox-inline">
+							  <input type="checkbox" id="md" value="md"> MD
+							</label>
+							<label class="checkbox-inline">
+							  <input type="checkbox" id="do" value="do"> DO
+							</label>
+							<label class="checkbox-inline">
+							  <input type="checkbox" id="hospital admin" value="admin"> Hospital Admin
+							</label>
+							<label class="checkbox-inline">
+							  <input type="checkbox" id="cnm/cm" value="cnm"> CNM/CM
+							</label>
+							<label class="checkbox-inline">
+							  <input type="checkbox" id="others-midwife" value="mmidwife"> OTHER MIDWIFE
+							</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<label class="checkbox-inline" for="others">
+							  <input type="checkbox" id="other" value="Other"> OTHER (Spacify)
+							</label>
+							<input type="text" class="form-control" id="others" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<label for="certified-date">Date Certified(mm/dd/yy)</label>
+    						<input type="date" class="form-control" id="certified-date" placeholder="">
+						</div>
+						<div class="col-md-6">
+							<label for="register-date">Date Field By Register</label>
+    						<input type="date" class="form-control" id="register-date" placeholder="">
+						</div>
+					</div>
+					<label for="telephone">Telephone</label>
+					<input type="tel" class="form-control" id="telephone" placeholder="">
+					<label for="url">UR#</label>
+					<input type="url" class="form-control" id="url" placeholder="">
+					<label for="reffarel-hospital">Refffarel Hospital</label>
+					<input type="text" class="form-control" id="reffarel-hospit" placeholder="">
+				</form>
+			</div>
+			<div class="col-md-5 col-md-offset-2 mother">
+				<h3>Mother's Details</h3>
+				<p>Mother's Current Legal Name</p>
+					<form>
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="mother-f-name">First Name</label>
+    						<input type="text" class="form-control" id="mother-f-name" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="mother-m-name">Middle Name</label>
+    						<input type="text" class="form-control" id="mother-m-name" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="mother-l-name">Last Name</label>
+    						<input type="text" class="form-control" id="mother-l-name" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="mother-suffix">Suffix</label>
+    						<input type="text" class="form-control" id="mother-suffix" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="mother-birth-date">Date oF Birth(mm/dd/yy)</label>
+    						<input type="date" class="form-control" id="mother-birth-date" placeholder="">
+						</div>
+					</div>
+					<p>Mothers Name priror to First Marriage</p>
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="mother-m-f-name">First Name</label>
+    						<input type="text" class="form-control" id="mother-m-f-name" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="mother-m-m-name">Middle Name</label>
+    						<input type="text" class="form-control" id="mother-m-m-name" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="mother-m-l-name">Last Name</label>
+    						<input type="text" class="form-control" id="mother-m-l-name" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							 <label for="mother-m-suffix">Suffix</label>
+    						<input type="text" class="form-control" id="mother-m-suffix" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="mother-birthplace">Birthplace(State, Terotiry, or Forign Country)</label>
+    						<input type="text" class="form-control" id="mother-birthplace" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="mother-state">Residence Of Mother-State</label>
+    						<input type="text" class="form-control" id="mother-state" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="mother-country">Country</label>
+    						<input type="text" class="form-control" id="mother-country" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="mother-city">City Town Or Location</label>
+    						<input type="text" class="form-control" id="mother-city" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="mother-street">Street And Number</label>
+    						<input type="text" class="form-control" id="mother-street" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							 <label for="mother-apartment">Apartmet No</label>
+    						<input type="text" class="form-control" id="mother-apartment" placeholder="">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							 <label for="zipcode">Zipcode</label>
+    						<input type="text" class="form-control" id="zipcode" placeholder="">
+						</div>
+						<div class="col-md-5 col-md-offset-1">
+							    <p>Inside City Limits?</p>
+						  		<label>
+  								<input type="radio" name="citylimit" id="yes" value="yes"> Yes
+								</label>
+								<label class="radio-inline">
+ 								 <input type="radio" name="citylimit" id="no" value="no"> No
+								</label>
+						</div>
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	
 	</div>
 	</section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
